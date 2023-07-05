@@ -1275,12 +1275,7 @@ mentionedJid:[sender],
 }, { quoted: m })
            }
 break
-
-case "alive":
-          m.reply(`
-IM ALIVE NOW
-`)
-          break
+/
 //NEW           
 // case 'dark na':case 'DARK NA':case 'Nilambara': case 'dark na v3' :{
 // //var unicorn = await getBuffer(picak+'All Menu')
