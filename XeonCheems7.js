@@ -293,14 +293,14 @@ mentionedJid:[sender],
 }
 })
 }
-const reply = (teks) => {
-XeonBotInc.sendMessage(from, { text: teks ,
-contextInfo:{
-forwardingScore: 9999999, 
-isForwarded: true
-}
-}, { quoted : m })
-}
+// const reply = (teks) => {
+// XeonBotInc.sendMessage(from, { text: teks ,
+// contextInfo:{
+// forwardingScore: 9999999, 
+// isForwarded: true
+// }
+// }, { quoted : m })
+// }
 
 const sendSticker = (pesan) => {
 XeonBotInc.sendImageAsSticker(m.chat, pesan, m, { packname: global.packname, author: global.author })
